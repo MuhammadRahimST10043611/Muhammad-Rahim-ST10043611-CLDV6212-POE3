@@ -237,28 +237,34 @@ OrderTable Created (Please zoom in to see image Clearer)
 How to Create Replica of Database
 When creating a replica of a database click on the database you want to replicate and look the tab called, “Replicas” you can either search for it in the database or if you go to, “Data management” tab you will see it there. Click on it. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/4cf453f7-3780-4e19-8705-1cebb5a9701a)
 
 When you click on “Replicas” You will be brought here you should see nothing here at all. Click on, “Create Replica”. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/2903db38-5bb9-4b2b-b3c1-5d9565f4f28a)
 
 
 Please Make sure Project Details are correct as you won’t be able to edit these details so make sure you are on the correct database. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/1f903457-52e4-47e3-96dc-ef61ea3b2d30)
 
 
 
 
 Please note at this step you will have to make sure you are on the correct Subscription and Resource Group also please note you will have to create a new server as you cannot use the same server as replica. So, click on, ‘’Create New” under server name.  (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/a92bae2e-0890-45d2-8800-09ed4562e47d)
 
 
 Follow the same steps for How to create a SQL server. By server name give it name that won’t confuse you from the original database in my instance I keep the same name and just put 
 -Replica so I know that this is a replica of my original database. Please note you must choose a different region as this is a failsafe database so you would want it in a different region. Once you are done click, “OK”. You will be brought back to the screen step/photo 4. Leave SQL Elastic pool and Compute + Storage on, “No” and “Basic”. Then you can click on, “Review and Create”. Then on, “Create”.  (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/556ca392-ccc6-43a6-99b7-610c7915c04f)
 
 
 If you followed all the steps correctly you will have successfully created a new Replica of your existing Database. (Please zoom in to see image Clearer)
+![image](https://github.com/user-attachments/assets/911647b8-66e0-497b-8308-018cf4a09817)
  
 
 Website Link and in depth of what the website does:
@@ -266,17 +272,21 @@ The process for Creating your web application in Azure App Service
 
 Step 1: Search for App Service in Azure Platform and click on that one. (Please zoom in to see image Clearer) 
 
+![image](https://github.com/user-attachments/assets/b9e4451e-b9c6-4306-a58c-a58dc8a2dd6f)
 
 Step 2: Click on, “Create”. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/0e96625b-5749-47e7-bc5f-0589a4a9531e)
 
 
 
 Step 3:  Click on, “Web App”. (Please zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/901ccd1d-faaf-4305-9eb9-fa002084cf34)
+
 Step 4: Make sure the Subscription and resource group is all correct. You can give your web app any name, I prefer to un check the, “try a unique default hostname” as it makes the web address too long and not very UI appealing. Make sure Publish is on, “Code”, Runtime stack is on, “.NET8 (LTS)” make sure Operating System is on, “Windows” as that’s the most used OS. Make sure your region is on, “South Africa North”. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/5726919a-48af-4840-aab0-8513424e131b)
 
 
 
@@ -286,27 +296,34 @@ Step 4: Make sure the Subscription and resource group is all correct. You can gi
 
 Step 5: Make sure your Pricing plan is on Free F1 as that plan is the cheapest. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/c6d04d5a-e994-4392-8875-a11b20140c26)
 
 Step 6: Go over to the deployment tab and make sure basic authentication is ENABLED. This is very important otherwise when you try to publish you will run into errors. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/67e6dda5-e439-47ea-b155-1098da4e56cf)
 
 
 The process for deploying your web application on an App Service
 Step 1:  Click on Build, then on Publish (Please zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/92b596a1-049e-45ea-80dc-fdf63ce73b69)
+
 
 Step 2: Click on New Profile the click on what ever service you used in this case we will click on Azure. Then click on next. (Please zoom in to see image Clearer)
+![image](https://github.com/user-attachments/assets/db143e5b-c698-4f86-8555-391f3c250b5f)
  
 Step 3: Make sure you chose the one you created for when you had to choose Operating system in my case that was windows.  (Please zoom in to see image Clearer)
+![image](https://github.com/user-attachments/assets/964c74bf-eb41-459f-b9af-650e7f4a1114)
  
 
 Step 4: Then click on your resource group folder and all the web apps you created will be shown below click on the one you want then to click on finish once you done click on publish and by doing this you have successfully published your code to Azure Web Services. (Please zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/1d9f5509-1f14-4192-ae63-787409e7789a)
+
 https://st10043611cldv.azurewebsites.net/
 
 Please find below proof of the website being deployed. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/e19fd8ec-6731-49f7-a610-75f682c2d163)
 
 
 
