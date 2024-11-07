@@ -17,6 +17,7 @@ POE PART 3
 
 
 
+![image](https://github.com/user-attachments/assets/2b021799-a234-483f-979d-0b712b2f8891)
 
 
 
@@ -63,36 +64,46 @@ How to Create a Database in Azure
 CREATE SQL SERVER FIRST
 First click on search and search for, “SQL Servers” then click on it. (Please Zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/86ada243-6196-4a53-9f38-5f03a80c3116)
 
 Then when you get Click on , “Create” . (Please Zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/417981c5-e92a-4731-831f-35a47ec8f7e2)
+
 Make sure you are using the correct subscription and resource group, also you can give your server name anything you want. (Please Zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/0d64fc3e-2a84-4e02-b4fd-aae38a3cb603)
 
 Make sure you are using South Africa North as the location. Also please note for Authentication Method you can use whatever you comfortable with but in my regards, I used SQL Authentication if you decide to follow what I did PLEASE REMEMBER YOUR SERVER ADMIN LOGIN AND PASSWORD. (Please Zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/01d2b941-ba68-4035-9f79-41f8c6b22a93)
 
 Once you are done with that click on “Review and Create” and scroll down to the bottom of the page and click on, “Create”. (Please Zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/9945abc4-601f-4c48-89bd-85dafb81c295)
+
 
 Once the deployment process is done click on the server you just created and go to the tab that says, “Networking” and then click on, “Selected Networks” and make sure your Start IPv4 address and End IPv4 address is exactly what I have then click on save otherwise if you do not have this your database cannot communicate with your server. (Please Zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/b24e6b1a-9982-440b-9786-b10469aceda4)
+
 
 CREATE SQL DATABASE NEXT
 First click on search and search for, “SQL Database” then click on it. (Please Zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/7b20b232-cd4d-4741-9302-d441c305388e)
+
 
 Then when you get Click on , “Create” . (Please Zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/60af434e-7500-4ef1-8735-bca472ed6615)
 
 
 
 Make sure you are using the correct subscription and resource group, also you can give your database name anything you want. PLEASE MAKE SURE THAT YOUR SERVER IS ON THE ONE YOU JUST CREATED ABOVE. (Please Zoom in to see image Clearer)
+![image](https://github.com/user-attachments/assets/63a716f4-90bf-4c0d-a9e8-7ba16411a786)
  
 
 Leave SQL Elastic pool and Workload Environment on, “No” and, “Development”. Then Click on, “Configure Database”. (Please Zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/e03f5cc6-3637-4607-a5d3-1eb223422b84)
 
 
 
@@ -117,17 +128,21 @@ DTU-based purchasing model
 
 in this case, we do not have such a big database so there is no need to go all out as the BASIC tier meets all our requirements. (Please Zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/0c8ee4e2-f33b-4ae2-b0c1-2b5bcdbf2807)
 
 Then click on, “Apply” after you chose the “basic” Tier. (Please Zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/ba687fe5-c9f5-45fd-92bc-9c1a6e24c3ed)
 
 
 You can choose any backup storage redundancy that fits your requirements in my case I will be using, “Locally-redundant backup storage”. (Please Zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/54e507f4-19b4-44d3-91f1-0cde0d48edb6)
 
 Once you done click on, “Review and Create” then click on, “Create” and after the deployment as succeeded you have successfully created a SQL Server and Database. (Please Zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/e8c16680-7b89-4b30-bb6a-d7f109205dc2)
 
 
 
