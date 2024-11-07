@@ -8,4 +8,5 @@ namespace CL3.Models
         public List<Product> Products { get; set; }
         public List<Order> Orders { get; set; }
     }
+
 }
