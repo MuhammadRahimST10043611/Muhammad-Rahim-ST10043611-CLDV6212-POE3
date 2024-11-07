@@ -152,6 +152,7 @@ Please head over to the specific database that you want to connect to then click
  
 
 
+![image](https://github.com/user-attachments/assets/c5b4e52e-42a7-4fd4-b893-39472516f20f)
 
 
 
@@ -165,6 +166,7 @@ Please head over to the specific database that you want to connect to then click
 Once you have that, open SQL Server Management Studio and you will be prompted with this make sure your Authentication is exactly on what you choose in the 4th Photo/step of how to create a SQL Server that part which I stated do not forget these details will come into play now. (Please Zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/fd046e02-552f-45c6-b292-f35241d380e3)
 
 
 
@@ -180,6 +182,7 @@ Paste that link I asked you copy into the Server Name Tab make sure your authent
  
 
 
+![image](https://github.com/user-attachments/assets/6c58fb02-75af-4c78-be37-9f01d3ff2dd9)
 
 
 
@@ -193,6 +196,7 @@ If you see this, you have successfully connected your Azure database to SQL Serv
 
 
 
+![image](https://github.com/user-attachments/assets/67f4a1df-e7a8-4e8f-9d7e-f924f70ef299)
 
 
 
@@ -206,12 +210,15 @@ If you see this, you have successfully connected your Azure database to SQL Serv
 
 Please Find below the table I have created in my SQL Server
 BlobTable Created (Please zoom in to see image Clearer)
- 
+ ![image](https://github.com/user-attachments/assets/1a4de009-5ae3-4867-a7ba-0760dce935c4)
+
 
 CustomerTable Created (Please zoom in to see image Clearer)
+![image](https://github.com/user-attachments/assets/b600462f-029b-4cbe-8a0e-e7111cb9a93a)
 
 OrderTable Created (Please zoom in to see image Clearer)
 
+![image](https://github.com/user-attachments/assets/eb41b379-cb9b-46da-83ea-dfe8cfa335b1)
 
 
 
