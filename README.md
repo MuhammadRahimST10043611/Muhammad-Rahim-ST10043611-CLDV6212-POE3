@@ -558,12 +558,17 @@ Please look at the branch that is called Final-Code when marking my work as that
 GitHub Branches Part 1: (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/598e8625-b27e-4220-8a90-f794a942a04f)
+
 
 GitHub Branches Part 2: (Please zoom in to see image Clearer)
+
+
  
 
 GitHub Commits Part 1: (Please zoom in to see image Clearer)
  
+
 
 
 
