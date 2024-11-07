@@ -13,4 +13,5 @@ namespace CL3.Models
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
     }
+
 }
