@@ -14,4 +14,5 @@ public class ContactViewModel
 
     [Required]
     public string Message { get; set; }
+
 }
