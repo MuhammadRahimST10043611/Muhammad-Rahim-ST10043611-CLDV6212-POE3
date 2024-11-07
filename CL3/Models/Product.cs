@@ -5,4 +5,5 @@ namespace CL3.Models
         public int Id { get; set; }
         public string Image { get; set; }
     }
+
 }
