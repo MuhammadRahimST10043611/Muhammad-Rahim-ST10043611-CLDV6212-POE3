@@ -1,0 +1,153 @@
+﻿@{
+    ViewData["Title"] = "Welcome to ABC Retail";
+}
+
+<div class="landing-hero">
+    <div class="hero-content">
+        <h1>Welcome to ABC Retail</h1>
+        <p class="hero-subtitle">Your Premier Online Shopping Destination</p>
+        <a href="/Home/Index" class="cta-button">Get Started</a>
+    </div>
+</div>
+
+<div class="features-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Seamless Shopping</h3>
+                    <p>Experience lightning-fast order processing and real-time inventory updates.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-gifts"></i>
+                    <h3>Holiday Ready</h3>
+                    <p>Enjoy smooth shopping experiences even during peak seasons.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Secure & Reliable</h3>
+                    <p>Your data is protected with state-of-the-art cloud infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about-section">
+    <div class="container">
+        <h2>About ABC Retail</h2>
+        <p>ABC Retail is transforming the online shopping experience through cutting-edge cloud technology. We're committed to providing fast, reliable, and personalized service to our valued customers.</p>
+        <div class="stats-row">
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Customer Support</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Secure Shopping</p>
+            </div>
+            <div class="stat-item">
+                <h3>Fast</h3>
+                <p>Order Processing</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 ABC Retail. All rights reserved.</p>
+    </footer>
+</div>
+
+@section Styles {
+    <style>
+        .landing-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/Images/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+            .cta-button:hover {
+                background-color: #0056b3;
+                transform: scale(1.05);
+            }
+
+        .features-section {
+            padding: 5rem 0;
+            background-color: #f8f9fa;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            transition: transform 0.3s;
+        }
+
+            .feature-card:hover {
+                transform: translateY(-10px);
+            }
+
+            .feature-card i {
+                font-size: 2.5rem;
+                color: #007bff;
+                margin-bottom: 1rem;
+            }
+
+        .about-section {
+            padding: 5rem 0;
+            background-color: white;
+            text-align: center;
+        }
+
+        .stats-row {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3rem;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-item p {
+            font-size: 1.1rem;
+            color: #6c757d;
+        }
+    </style>
+}

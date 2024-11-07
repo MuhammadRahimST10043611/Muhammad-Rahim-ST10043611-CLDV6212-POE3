@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">@TempData["Message"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row">
+        <!-- Customer Section -->
+        <div class="col-md-4">
+            <h3>Add Customer</h3>
+            <form asp-action="AddCustomer" method="post">
+                <div class="form-group mb-3">
+                    <label>First Name</label>
+                    <input type="text" name="FirstName" class="form-control" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Second Name</label>
+                    <input type="text" name="SecondName" class="form-control" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Email</label>
+                    <input type="email" name="Email" class="form-control" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Phone Number</label>
+                    <input type="tel" name="PhoneNumber" class="form-control" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Add Customer</button>
+            </form>
+        </div>
+
+        <!-- Product Section -->
+        <div class="col-md-4">
+            <h3>Add Product</h3>
+            <form asp-action="AddProduct" method="post" enctype="multipart/form-data">
+                <div class="form-group mb-3">
+                    <label>Product Image</label>
+                    <input type="file" name="imageFile" class="form-control" required accept="image/*" />
+                </div>
+                <button type="submit" class="btn btn-primary">Add Product</button>
+            </form>
+        </div>
+
+        <!-- Order Section -->
+        <div class="col-md-4">
+            <h3>Add Order</h3>
+            <form asp-action="AddOrder" method="post" enctype="multipart/form-data">
+                <div class="form-group mb-3">
+                    <label>Order ID</label>
+                    <input type="number" name="OrderID" class="form-control" required min="1" />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Upload File</label>
+                    <input type="file" name="uploadedFile" class="form-control" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Add Order</button>
+            </form>
+        </div>
+    </div>
+<footer>
+    <p>&copy; 2024 ABC Retail. All rights reserved.</p>
+</footer>
+</div>
