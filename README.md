@@ -343,6 +343,7 @@ Please find below proof of the website being deployed. (Please zoom in to see im
 
 
 Landing Page Part 1: if the user clicks on “Get Started” they will be taken to the dashboard page. (Please zoom in to see image Clearer) 
+![image](https://github.com/user-attachments/assets/a300dfc8-7a0e-4b4e-a3d5-33eda5b5ddd8)
 
 
 
@@ -350,17 +351,20 @@ Landing Page Part 1: if the user clicks on “Get Started” they will be taken 
 Landing Page Part 2: (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/ccb7ec85-d598-4846-832a-77645819a089)
 
 
 
 
 Dashboard Page Part 1: (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/ebbe47bd-3264-44ac-924c-c1b4ccb325ae)
 
 
 Dashboard Page Part 2: What it looks like when the user adds a customer. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/1f7af4fa-e28a-483d-8a17-69fd585dfb12)
 
 
 
@@ -371,27 +375,32 @@ Dashboard Page Part 2: What it looks like when the user adds a customer. (Please
 Dashboard Page Part 3: Gives a prompt that says Customer has been added successfully so the user is aware that it went through successfully. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/5f4b3980-5c84-4925-90af-97585d946e11)
 
 Dashboard Page Part 4: What it looks like when the user adds a product image. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/4fee6747-9558-40c8-b7f9-3c00048c5810)
 
 
 
 Dashboard Page Part 5: Gives a prompt that says Product Image has been added successfully so the user is aware that it went through successfully. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/4171d8fc-4262-43f6-8dc7-5410e5a8b90b)
 
 
 Dashboard Page Part 6: What it looks like when the user adds an order, they can increase the order ID number by using the arrow keys on it or simply just type the number and they can upload a file as well. (Please zoom in to see image Clearer)
  
 
+![image](https://github.com/user-attachments/assets/0b87dd26-4a66-4d90-bc79-eb6819095fd8)
 
 
 Dashboard Page Part 7: Gives a prompt that says Order has been added successfully so the user is aware that it went through successfully. (Please zoom in to see image Clearer)
  
 
 
+![image](https://github.com/user-attachments/assets/85a85125-de87-44d0-915e-54078123492a)
 
 
 
@@ -416,10 +425,12 @@ Dashboard Page Part 7: Gives a prompt that says Order has been added successfull
 
 Manage Records Page Part 1: shows all the Customers that have been added to the database and reflects the data back to this page. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/61b68ffb-3da5-4687-9b78-285f27c6b4c6)
 
 
 Manage Records Page Part 2: shows all the Product images and Orders that have been added to the database and reflects the data back to this page. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/0dbf5e38-65ec-4b62-a9aa-074f74b0bfb1)
 
 
 
@@ -428,32 +439,40 @@ Manage Records Page Part 2: shows all the Product images and Orders that have be
 
 Manage Records Page Part 3: Gives this prompt if the user wants to delete a customer from the Manage Records table. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/a8c6b517-f3da-42d1-a73d-5d56c9855157)
 
 
 
 Manage Records Page Part 4: Displays a message that will state that the customer has been removed and it will update the database accordingly and only display the remaining customers. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/1869ac1d-8258-478d-a170-40bc4b719cc4)
 
 
 
 Manage Records Page Part 5: Gives this prompt if the user wants to delete a Product Image from the Manage Records table. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/da09ed3b-f059-4778-904b-384cab8a059d)
 
 
 
 Manage Records Page Part 6: It will also Displays a message that will state that the Product has been removed and it will update the database accordingly and only display the remaining Products. (Please zoom in to see image Clearer)
+![image](https://github.com/user-attachments/assets/2bfa0a90-e667-41ed-8b7d-4ca395886c6b)
  
 Manage Records Page Part 7: Gives this prompt if the user wants to delete an Order from the Manage Records table. (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/bd8db4d6-7657-41ad-9bcc-e8c44e5de2d1)
 
 
 Manage Records Page Part 8: It will also Displays a message that will state that an Order has been removed and it will update the database accordingly and only display the remaining Orders.  (Please zoom in to see image Clearer)
  
+![image](https://github.com/user-attachments/assets/71086bde-aadd-4300-8010-d874b6baf71f)
 
 
 
 Contact Us Page Part 1:  Gives the user just a brief way of getting in contact with us. (Please zoom in to see image Clearer)
  
+
+![image](https://github.com/user-attachments/assets/07dab245-33c3-4a88-8d42-18d89648d008)
 
 
 
@@ -461,6 +480,8 @@ Contact Us Page Part 1:  Gives the user just a brief way of getting in contact w
 Contact Us Page Part 2: What the form looks like filled in. (Please zoom in to see image Clearer)
  
 
+
+![image](https://github.com/user-attachments/assets/4ccb9cfa-9a09-42af-b345-a35728780d1c)
 
 
 
@@ -470,7 +491,7 @@ Contact Us Page Part 3: The prompt the user will receive after they click on sub
 
 
 
-
+![image](https://github.com/user-attachments/assets/c7b2eec4-3a36-443b-9e7b-62ea8a07ad98)
 
 
 
@@ -493,15 +514,21 @@ Contact Us Page Part 3: The prompt the user will receive after they click on sub
 
 Proof Of Data being collected in the database
 Customer SQL Proof: (Please zoom in to see image Clearer)
- 
+
+ ![image](https://github.com/user-attachments/assets/05cb64f4-9804-43b5-b0e8-73833d7f5fc8)
+
 
 Order SQL Proof: (Please zoom in to see image Clearer)
  
+
+![image](https://github.com/user-attachments/assets/50d7b0d2-5fb7-4e89-b018-a13ed8b2a602)
 
 
 
 Product SQL Proof: (Please zoom in to see image Clearer)
  
+
+![image](https://github.com/user-attachments/assets/6a168ce2-36f7-4b68-86c7-db7892409417)
 
 
 
