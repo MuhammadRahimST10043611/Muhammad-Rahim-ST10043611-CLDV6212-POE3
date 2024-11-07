@@ -212,6 +212,7 @@ namespace CL3.Controllers
                     System.IO.File.Delete(filePath);
                 }
 
+
                 _context.Orders.Remove(order);
                 await _context.SaveChangesAsync();
                 TempData["Message"] = "Order deleted successfully!";
